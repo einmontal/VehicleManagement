@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManagement.API", "VehicleManagement.API\VehicleManagement.API.csproj", "{D95E6515-B556-4EDF-A6D5-4D6BF5086DD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement.API", "VehicleManagement.API\VehicleManagement.API.csproj", "{D95E6515-B556-4EDF-A6D5-4D6BF5086DD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManagement.DomainModel", "VehicleManagement.DomainModel\VehicleManagement.DomainModel.csproj", "{4E7B6085-E78E-4A1F-9ED7-B0B484597366}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement.DomainModel", "VehicleManagement.DomainModel\VehicleManagement.DomainModel.csproj", "{4E7B6085-E78E-4A1F-9ED7-B0B484597366}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManagement.DomainService", "VehicleManagement.DomainService\VehicleManagement.DomainService.csproj", "{96C0A3DC-558A-4880-BE0A-69E9625E790A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement.DomainService", "VehicleManagement.DomainService\VehicleManagement.DomainService.csproj", "{96C0A3DC-558A-4880-BE0A-69E9625E790A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManagement.Infrastructure", "VehicleManagement.Infrastructure\VehicleManagement.Infrastructure.csproj", "{42733DFD-A216-4EE2-9A99-46C943D1D627}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement.Infrastructure", "VehicleManagement.Infrastructure\VehicleManagement.Infrastructure.csproj", "{42733DFD-A216-4EE2-9A99-46C943D1D627}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManagement.Application", "VehicleManagement.Application\VehicleManagement.Application.csproj", "{243C06CB-8377-4349-B089-C22D8155919A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement.Application", "VehicleManagement.Application\VehicleManagement.Application.csproj", "{243C06CB-8377-4349-B089-C22D8155919A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManagement.Resources", "VehicleManagement.Resources\VehicleManagement.Resources.csproj", "{F1BD5C32-1AAC-46DC-B4A7-783CFEC10E56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement.Resources", "VehicleManagement.Resources\VehicleManagement.Resources.csproj", "{F1BD5C32-1AAC-46DC-B4A7-783CFEC10E56}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackingCode", "TrackingCode\TrackingCode.csproj", "{B89F9EE5-C4F0-485B-8324-026B25D8D619}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingCode", "TrackingCode\TrackingCode.csproj", "{B89F9EE5-C4F0-485B-8324-026B25D8D619}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFInheritance", "EFInheritance\EFInheritance.csproj", "{75957E36-2227-4835-A183-8EB8D852E3F9}"
 EndProject
