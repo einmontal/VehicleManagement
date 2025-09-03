@@ -10,7 +10,6 @@ public class CarMessagePublisher
     private readonly IChannel _channel;
 
     private const string ExchangeName = "car_exchange";
-    private const string QueueName = "car_queue";
 
     public CarMessagePublisher(IChannel channel)
     {
@@ -21,20 +20,6 @@ public class CarMessagePublisher
             type: ExchangeType.Fanout,
             durable: true,
             autoDelete: false
-            );
-
-        _channel.QueueDeclareAsync(
-            queue: QueueName,
-            durable: true,
-            exclusive: false,
-            autoDelete: false,
-            arguments: null
-            );
-
-        _channel.QueueBindAsync(
-            queue: QueueName, 
-            exchange: ExchangeName, 
-            routingKey: string.Empty
             );
     }
 

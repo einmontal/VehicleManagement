@@ -16,7 +16,7 @@ public class CarMessageConsumer : BackgroundService
     private readonly IChannel _channel;
 
     private const string ExchangeName = "car_exchange";
-    private const string QueueName = "car_queue";
+    private const string QueueName = "car_management_queue";
 
     public CarMessageConsumer(
         IServiceScopeFactory serviceScopeFactory,
